@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo 'run application_start.sh: ' >> /home/ec2-user/nodejs-aws-codedeploy-pipeline/deploy.log
+echo 'run application_start.sh: ' >> /home/ubuntu/sample-deploy-app/deploy.log
 
-echo 'pm2 restart nodejs-express-app' >> /home/ec2-user/nodejs-aws-codedeploy-pipeline/deploy.log
-pm2 restart nodejs-express-app >> /home/ec2-user/nodejs-aws-codedeploy-pipeline/deploy.log
+echo 'pm2 restart uat-sample-app' >> /home/ubuntu/sample-deploy-app/deploy.log
+pm2 restart uat-sample-app >> /home/ubuntu/sample-deploy-app/deploy.log
